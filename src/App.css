@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(7, 7, 27);
+max-height: fit-content;
+min-height: 100vh;
+
+}
+.all{
+  color: white;
+  text-transform: capitalize;
+  /* margin-left: 40%; */
+}
+button{
+  background-color:rgb(7, 7, 27);
+  border: 2px solid white;
+  height: 40px;
+  width: 120px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: rgb(182, 11, 11);
+}
+
+
+img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+
+}
+.back{
+height: 200px;
+width: 352px;
+margin-left: -74px;
+}
+.grid{
+  display: grid;
+  margin-top:40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-gap: 10px; */
+  /* margin-left: -50%; */
+}
